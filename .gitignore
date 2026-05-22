@@ -1,0 +1,51 @@
+# Build
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+
+# Logs
+*.log
+
+# NuGet
+packages/
+*.nupkg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local config (Connection String)
+appsettings.json
+appsettings.Development.json
+
+# Secrets
+secrets.json
+
+# Publish
+publish/
+
+# Test results
+TestResults/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Ignore App.config
+App.config
+
+# Ignore user settings
+Properties/Settings.settings
+Properties/Settings.Designer.cs
+
+echo "ERP_Project.git/" >> .gitignore
+echo "ERP_Project.git.bfg-report/" >> .gitignore
