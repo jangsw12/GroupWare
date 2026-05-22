@@ -1,0 +1,6 @@
+@GroupWare_Server_HostAddress = http://localhost:5265
+
+GET {{GroupWare_Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
