@@ -23,9 +23,9 @@ packages/
 .DS_Store
 Thumbs.db
 
-# Local config (Connection String)
-appsettings.json
-appsettings.Development.json
+# REMOVE this
+# appsettings.json
+# appsettings.Development.json
 
 # Secrets
 secrets.json
@@ -47,5 +47,17 @@ App.config
 Properties/Settings.settings
 Properties/Settings.Designer.cs
 
-echo "ERP_Project.git/" >> .gitignore
-echo "ERP_Project.git.bfg-report/" >> .gitignore
+# ASP.NET Core build artifacts
+wwwroot/lib/
+
+# EF Core
+Migrations/
+
+# runtime files
+*.db
+*.sqlite
+
+# user secrets (dotnet)
+*.Secret.json
+
+
